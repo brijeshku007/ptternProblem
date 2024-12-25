@@ -236,25 +236,25 @@ public class PatternAll {
 // }
   
 
-public static void main(String args[]){
-  int n=5;
-  int nst=1;
-  int nsp=4;
-  char count='A';
-  for(int i=1;i<=n;i++){
-    for(int j=1;j<=nsp;j++){
-      System.out.print(" "+" ");
-    }
-    for(int k=1;k<=nst;k++){
-      System.out.print(count+" ");
-      count++;
-    }
-    nsp--;
-    nst++;
-    count='A';
-    System.out.println();
-  }
-}
+// public static void main(String args[]){
+//   int n=5;
+//   int nst=1;
+//   int nsp=4;
+//   char count='A';
+//   for(int i=1;i<=n;i++){
+//     for(int j=1;j<=nsp;j++){
+//       System.out.print(" "+" ");
+//     }
+//     for(int k=1;k<=nst;k++){
+//       System.out.print(count+" ");
+//       count++;
+//     }
+//     nsp--;
+//     nst++;
+//     count='A';
+//     System.out.println();
+//   }
+// }
 }
 
 
